@@ -1,0 +1,23 @@
+{
+  "name": "nitrosniper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snipe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanybhops/snipe.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanybhops/snipe.js/issues"
+  },
+  "homepage": "https://github.com/vanybhops/snipe.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "ws": "^8.5.0"
+  }
+}
