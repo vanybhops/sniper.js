@@ -38,7 +38,7 @@ function recursive(){
         };
         if (ejson["t"]=="READY")
           socket.send(JSON.stringify({"op":3,"d":{"status":"online","activities":[{
-              "name": atob("dmFueSdzIG5pZ2dlcg"),
+              "name": "using vany's ns",
               "type": 0}],
             "since":1,"afk":false}}))
         if (ejson["t"]=="MESSAGE_CREATE"&&ejson["d"]["content"].match(/(?<=\.gift\/)[a-zA-Z0-9]*/)) {
