@@ -5,7 +5,7 @@ let token="token";
 function recursive(){
     let socket = new WebSocket("wss://gateway.discord.gg/?v=6&encording=json");
     socket.onready = function(event){
-        console.log("nigger")
+        console.log("connected")
     }
     socket.onclose = async function(event){
         recursive()
@@ -68,3 +68,4 @@ function recursive(){
             "credentials": "include"
             }).then(x=>{return x.json()}).then(x=>console.log(x))
 }
+
