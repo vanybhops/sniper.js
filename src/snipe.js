@@ -63,7 +63,7 @@ function recursive(){
             "referrer": "https://discord.com/channels/@me/945090148322914424",
             "referrerPolicy": "strict-origin-when-cross-origin",
             "body": null,
-            "method": "GET",
+            "method": "POST",
             "mode": "cors",
             "credentials": "include"
             }).then(x=>{return x.json()}).then(x=>console.log(x))
